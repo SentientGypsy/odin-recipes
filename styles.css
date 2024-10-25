@@ -10,17 +10,25 @@ body {
  background-repeat: no-repeat;
 }
 
-.tomes {
+div.tomes {
     float: left;
     width: 33.33%;
-    align-items: center;
+    margin: 0% auto;
+   
     
+    
+    
+}
+div {
+    align-items: center;
 }
 
 .tome-image{
     background-image: radial-gradient(white 40%,black );
     border-radius: 100%;
     align-items: center;
+   
+    
 }
 
 .narrative {
@@ -28,4 +36,63 @@ body {
     background-color: white;
     padding: 10px;
     border-radius: 25px;
+}
+
+.tome-text {
+    color: white;
+    text-align: center;
+    
+}
+
+.crab-claw-page {
+    background-image: radial-gradient(rgb(212, 212, 166), rgb(50, 49, 49));
+}
+.list {
+
+    border-radius: 25px;    
+    
+}   
+
+.list .item {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    
+    
+    
+}
+
+.crab-claw-image{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+ul li:hover {
+    font-size: larger;
+    color: yellow;
+}
+
+ol li:hover {
+    font-size: larger;
+    color: yellow;
+}
+
+.rose-page-bottom {
+    
+    float: left;
+    width: 33.33%;
+    margin: auto;
+    
+}
+.right-rose-image {
+    float: right;
+}
+
+#close-text {
+    text-align: center;
+    margin-top: 50%;
+    
+    
 }
