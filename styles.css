@@ -96,3 +96,13 @@ ol li:hover {
     
     
 }
+
+.food-title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(249, 229, 10);
+    
+    outline-style: ridge;
+    margin-right: 25%;
+    margin-left: 25%;
+}
