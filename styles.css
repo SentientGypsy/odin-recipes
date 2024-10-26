@@ -11,11 +11,11 @@ body {
 }
 
 div.tomes {
-    float: left;
-    width: 33.33%;
-    margin: 0% auto;
-   
     
+    width: 33.33%;
+    display: inline;
+    float: none;
+    margin-left: 20px;
     
     
 }
